@@ -20,6 +20,7 @@ module System.KeyChange
     , keyFromInt
     , deleteKeyChange
     , ToInt
+    , FromInt
     , KeyChangeID
     ) where
 
