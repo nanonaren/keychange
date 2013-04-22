@@ -33,6 +33,7 @@ import Control.DeepSeq
 
 newtype KeyChangeID = KID FilePath
 newtype ToInt a = ToInt (H.HashMap a Int)
+    deriving (Show)
 newtype FromInt a = FromInt (H.HashMap Int a)
 
 emptyToInt = ToInt H.empty
